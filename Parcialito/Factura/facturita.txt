@@ -1,0 +1,33 @@
+class Factura {
+    private String nombre;
+    private double total;
+
+    public Empleados(String nombre, double total) {
+        this.nombre = nombre;
+        this.total = total;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void calcularTotal() {
+        System.out.println("Suma de productos: " + total);
+    }
+}
+
+
+public class MainApp {
+    public static void main(String[] args) {
+        Factura factura1 = new Factura("Valery", 50000);
+
+
+        Empleados[] empleados = {empleado1};
+
+        for (Factura factura : factura) {
+            System.out.println("Nombre: " + empleado.getNombre());
+            empleado.calcularTtotal();
+            System.out.println("-----------");
+        }
+    }
+}

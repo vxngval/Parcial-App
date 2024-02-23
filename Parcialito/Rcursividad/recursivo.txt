@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Recursividad {
+
+    public static void main(String[] args) {
+        int num;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\tPrograma que divide un numero entre dos");
+
+        System.out.print("Introduzca el numero: ");
+        num = sc.nextInt();
+
+        System.out.println("La división es: " + num);
+    }
+
+    public static int division(int num) {
+        if (exp == 0) {
+            return 1; 
+        } else {
+            return (num / 2) ; 
+        }
+    }
+}
